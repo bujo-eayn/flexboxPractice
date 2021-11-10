@@ -1,8 +1,19 @@
 .box {
     display: flex;
-    flex-wrap: wrap;
   }
 
 div{
     border: 2px solid black;
+}
+
+.one{
+    flex-grow: 2;
+}
+
+.two{
+    flex-grow: 2;
+}
+
+.three{
+    flex-grow: 1;
 }
