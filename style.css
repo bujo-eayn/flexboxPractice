@@ -1,7 +1,39 @@
 div {
     background-color: brown;
-    height: 200px;
     padding: 50px;
     margin: 20px;
     border: 5px solid aqua;
+    box-sizing: border-box;
+}
+
+.main{
+    background-color: black;
+    padding: 20px;
+    margin: 10px;
+    border: 7px solid green;
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    display: flex;
+    
+}
+
+.logo, .login, .signup{
+    background-color: greenyellow;
+    border: 6px solid grey;
+}
+
+.foot{
+    display: flex;
+}
+
+.logo, .docs, .social-links{
+    background-color: greenyellow;
+    border: 6px solid grey;
+}
+
+.docs a, .social-links a{
+    display: block;
 }
